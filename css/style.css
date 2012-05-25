@@ -76,7 +76,7 @@ h6 {
     padding: 5px 5px 5px;
     background: white;
     border: 2px solid #FFFFFF;
-    min-height: 200px;
+    /*min-height: 200px;*/
 }
 user agent stylesheetdiv {
     display: block;
@@ -91,5 +91,18 @@ user agent stylesheetdiv {
 .widget-content::before, .widget-content::after {
     content: "";
     display: table;
+}
+.widget > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+}
+
+.widget a:hover {
+    background: #efefef;
+    background: rgba(0, 0, 0, 0.05);
 }
 
