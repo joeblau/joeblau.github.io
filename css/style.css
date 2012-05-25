@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#full-screen-background-image {
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#wrapper {
+    position: relative;
+    /*width: 800px;*/
+    min-height: 400px;
+    margin: auto;
+    color: #333;
+}
+
+h1,h3,h4,h5 {
+    padding-bottom: 6px;
+    font-family: 'Architects Daughter', cursive;
+    color: #FFF;
+}
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFF;
+    font-weight: lighter;
+}
+.site-header {
+    min-height: 120px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.widget {
+    position: relative;
+    clear: both;
+    width: auto;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+.widget-header {
+    padding: 4px 4px 4px;
+    position: relative;
+    height: 40px;
+    background: #3399FF;
+    background: -moz-linear-gradient(top, #1399FF 0%, #3399FF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1399FF), color-stop(100%, #3399FF));
+    background: -webkit-linear-gradient(top, #1399FF 0%, #3399FF 100%);
+    background: -o-linear-gradient(top, #1399FF 0%, #3399FF 100%);
+    background: -ms-linear-gradient(top, #1399FF 0%, #3399FF 100%);
+    background: linear-gradient(top, #1399FF 0%, #3399FF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#1399FF', endColorstr = '#3399FF');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1399FF', endColorstr='#3399FF')";
+    border: 2px solid #FFFFFF;
+    -webkit-background-clip: padding-box;
+}
+.widget-header + .widget-content {
+    border-top: none;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.widget-content {
+    zoom: 1;
+}
+.widget-content {
+    padding: 5px 5px 5px;
+    background: white;
+    border: 2px solid #FFFFFF;
+    min-height: 200px;
+}
+user agent stylesheetdiv {
+    display: block;
+}
+.widget-content::before, .widget-content::after {
+    content: "";
+    display: table;
+}
+.widget-content::after {
+    clear: both;
+}
+.widget-content::before, .widget-content::after {
+    content: "";
+    display: table;
+}
+
