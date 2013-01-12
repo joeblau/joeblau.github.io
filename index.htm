@@ -8,10 +8,10 @@
     <meta name="description" content="Joe Blau's Projects">
     <meta name="author" content="Joe Blau">
     <!-- Stylesheets -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/joeblau/css/style.css" rel="stylesheet">
     <!-- Favicon & Touch Icons -->
     <link rel="shortcut icon" href="assets/favicon-apple.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/apple-touch-icon-144-precomposed.png">
@@ -19,174 +19,229 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
-  <body data-spy="scroll">
-    <img alt="full screen background image" src="img/bpbg.png" id="full-screen-background-image" />
-    <div id="wrapper">
-      <header class="site-header">
-        <div class="container">
-          <div class="row">
-            <div class="span9"> <a href="index.htm"><img src="img/title.png"/></a> </div>
-            <div class="span3">
-              <ul class="nav nav-pills header-nav pull-right">
-                <li><a href="#open-source">Open Source</a></li>
-                <li><a href="#closed-source">Closed Source</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
+  <body>
+  <nav class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
       <div class="container">
-        <!-- Open Source -->
-        <div id="open-source">
-          <div class="row">
-            <div class="span12">
-              <h1>Open Source</h1>
-              <h5>My ideas that are free for you to use.</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span3">
-              <div class="widget">
-                <a href="#">
-                  <div class="widget-header">
-                    <h4>Node-Redis-Bloom</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-redisio.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-nodejs.ico"/>
-                    <p>A Redis backed Bloom Filter for Node.js</p>
-                  </div>
-                </a>
-              </div>
-            </div>            
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://joeblau.github.com/StopSOPA-Chrome-Extension/">
-                  <div class="widget-header">
-                    <h4>Chrome Stop SOPA</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-firefox.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-html5.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-css3.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-jquery.ico"/>
-                    <p>Chrome Extension that alerts you when you visit a website that supports SOPA.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://joeblau.github.com/StopSOPA-Firefox-Extension/">
-                  <div class="widget-header">
-                    <h4>Firefox Stop SOPA</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-firefox.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-html5.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-css3.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-jquery.ico"/>
-                    <p>Firefox Addon that alerts you when you visit a website that supports SOPA.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://joeblau.github.com/StopSOPA-Safari-Extension/">
-                  <div class="widget-header">
-                    <h4>Safari Stop SOPA</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-safari.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-html5.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-css3.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-jquery.ico"/>
-                    <p>Safari Plugin that alerts you when you visit a website that supports SOPA.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span3">
-              <div class="widget">
-                <a href="#">
-                  <div class="widget-header">
-                    <h4>Nomadic Post</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-appengine.ico"/>
-                    <p>Framework for moving the <code>POST</code> HTTP Request Method on a scheduled interval.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Closed Source-->
-        <div id="closed-source">
-          <div class="row">
-            <div class="span12">
-              <h1>Closed Source</h1>
-              <h5>I will be open sourcing these when I have time.</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://www.vroomtrap.com/">
-                  <div class="widget-header">
-                    <h4>Vroomtrap</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-appengine.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-googlemaps.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-apple.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-android.ico"/>
-                    <p>Online Real-Time Speed Trap Database that synchronizes to a mobile application to inform drivers where speed traps are.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://www.mftranslator.com/">
-                  <div class="widget-header">
-                    <h4>Male/Female Translator</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-appengine.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-apple.ico"/>
-                    <p>A social male/female translator that helps you understand what the opposite sex means.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="span3">
-              <div class="widget">
-                <a target="_blank" href="http://www.metmo.com/w">
-                  <div class="widget-header">
-                    <h4>Metmo</h4>
-                  </div>
-                  <div class="widget-content">
-                    <img style="-webkit-user-select: none" src="img/favicon-appengine.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-sencha.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-apple.ico"/>
-                    <img style="-webkit-user-select: none" src="img/favicon-android.ico"/>
-                    <p>Metmo is Washington D.C.'s leading Metro application. It provides you with everything you need to navigate public transportation in the nations capitol.</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> <!-- /container -->
+        <a href="/" class="brand">Joe Blau</a>
+        <ul class="nav">
+          <li class="active"><a class="blurbutton"  href="#">Projects</a></li>
+          <li><a class="blurbutton"  href="#">Skills</a></li>
+          <li><a class="blurbutton" href="#">Me</a></li>
+        </ul>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.0.27/webfont.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <!-- Stop SOPA -->
+      <div class="hero-unit">
+        <div id="sopaCaorusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="textpad">
+                Stop SOPA
+                <br>
+                Chrome, Firefox and Safari Add-On to alert users as to which comapnies support SOPA
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/stopsopa01.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Stop SOPA plugin running on Microsoft.com</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/stopsopa02.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Stop SOPA plugin minimized</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/stopsopa03.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Stop SOPA plugin maximized</h4>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#sopaCaorusel" data-slide="prev">‹</a>
+          <a class="right carousel-control" href="#sopaCaorusel" data-slide="next">›</a>
+        </div>
+      </div>
+      <!-- Male Female Translator -->
+      <div class="hero-unit">
+        <div id="mftranslatorCaorusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="textpad">
+                Male/Female Translator
+                <br>
+                Chrome, Firefox and Safari Add-On to alert users as to which comapnies support SOPA
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/mftranslator01.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>First Thumbnail label</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/mftranslator02.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Second Thumbnail label</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/mftranslator03.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Third Thumbnail label</h4>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#mftranslatorCaorusel" data-slide="prev">‹</a>
+          <a class="right carousel-control" href="#mftranslatorCaorusel" data-slide="next">›</a>
+        </div>
+      </div>
+      <!-- Vroomtrap Translator -->
+      <div class="hero-unit">
+        <div id="vroomtrapCaorusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="textpad">
+                Vroomtrap
+                <br>
+                Chrome, Firefox and Safari Add-On to alert users as to which comapnies support SOPA
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/vroomtrap01.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>First Thumbnail label</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/vroomtrap02.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Second Thumbnail label</h4>
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/vroomtrap03.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>Third Thumbnail label</h4>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#vroomtrapCaorusel" data-slide="prev">‹</a>
+          <a class="right carousel-control" href="#vroomtrapCaorusel" data-slide="next">›</a>
+        </div>
+      </div>
+      <!-- Metmo Translator -->
+      <div class="hero-unit">
+        <div id="metmoCaorusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="textpad">
+                Metro Mobile
+                <br>
+                Chrome, Firefox and Safari Add-On to alert users as to which comapnies support SOPA
+              </div>
+            </div>
+            <div class="item">
+              <div class="crop-img">
+                <img src="assets/joeblau/img/metmo01.png" alt="">
+              </div>
+              <div class="carousel-caption">
+                <h4>First Thumbnail label</h4>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#metmoCaorusel" data-slide="prev">‹</a>
+          <a class="right carousel-control" href="#metmoCaorusel" data-slide="next">›</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <h3>Projects</h3>
+          <a href="#">Stop SOPA</a><br>
+          <a href="#">Male/Female Translator</a><br>
+          <a href="#">Vroomtrap</a><br>
+          <a href="#">Metmo</a><br>
+        </div>
+        <div class="span4">
+          <h3>Skills
+            <!--<span class="badge badge-language">Language</span>-->
+            <!--<span class="badge badge-platform">Platform</span>-->
+            <!--<span class="badge badge-database">DB</span>-->
+            <!--<span class="badge badge-security">Security</span>-->
+
+          </h3>
+          <span class="badge badge-language">Python</span>
+          <span class="badge badge-language">Java</span>
+          <span class="badge badge-language">C#</span>
+          <span class="badge badge-language">Objective-C</span>
+          <span class="badge badge-language">C/C++</span>
+          <span class="badge badge-language">JavaScript</span>
+          <span class="badge badge-language">HTML</span>
+          <span class="badge badge-language">CSS</span>
+          <span class="badge badge-language">Bash</span>
+
+          <span class="badge badge-platform">Linux/Unix</span>
+          <span class="badge badge-platform">OSX</span>
+          <span class="badge badge-platform">Windows</span>
+
+          <span class="badge badge-database">SQL</span>
+          <span class="badge badge-database">Big Table</span>
+          <span class="badge badge-database">LDAP</span>
+          <span class="badge badge-database">Redis</span>
+          <span class="badge badge-database">MongoDB</span>
+          <span class="badge badge-database">Lucene</span>
+
+          <span class="badge badge-security">OSX Keychain</span>
+          <span class="badge badge-security">NSS</span>
+          <span class="badge badge-security">JKS</span>
+          <span class="badge badge-security">OpenSSL</span>
+          <span class="badge badge-security">NTAuth</span>
+          <span class="badge badge-security">MSCAPI</span>
+
+
+
+        </div>
+        <div class="span4">
+          <h3>Me</h3>
+          <p><i class="icon-facebook-sign"></i> Facebook</p>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/joeblau/js/main.js"></script>
+
+
+
 </html>

@@ -1,0 +1,206 @@
+html {
+  background: #1d1f21 url(../img/joeblausf.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  min-height: 100%;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66);
+  background: transparent;
+  padding-top: 80px;
+}
+
+
+.badge {
+  margin-bottom: 8px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+.label-langauge, .badge-language {
+  /*background-color: #c82829;*/
+  background: none;
+}
+.label-patform, .badge-platform {
+  /*background-color: #f5871f;*/
+  background: none;
+}
+.label-database, .badge-database {
+  /*background-color: #eab700;*/
+  background: none;
+}
+.label-security, .badge-security {
+  /*background-color: #718c00;*/
+  background: none;
+}
+/* Carousel base class */
+.carousel {
+  margin: 0px;
+}
+.carousel .textpad {;
+  padding: 16px 56px 16px 56px;
+}
+.carousel .container {
+  position: relative;
+  z-index: 9;
+}
+
+.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+}
+
+.carousel .item {
+  height: 600px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.carousel .crop-img {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.carousel-caption {
+  -webkit-border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+/*.carousel-caption h1,*/
+/*.carousel-caption .lead {*/
+  /*margin: 0;*/
+  /*line-height: 1.25;*/
+  /*color: #fff;*/
+  /*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
+/*}*/
+/*.carousel-caption .btn {*/
+  /*margin-top: 10px;*/
+/*}*/
+
+
+.navbar {
+  height: 60px;
+  border-bottom:2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(45, 45, 45, 0.5);
+}
+.hero-unit {
+  padding: 0px;
+  background-color: rgba(45, 45, 45, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.navbar-inner {
+  padding-top:16px;
+  border-style: none;
+  height: 60px;
+  background:transparent;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  filter:none;
+}
+
+.navbar .brand {
+  color: #fff;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*font-weight:700;*/
+  /*font-size:32px;*/
+  /*padding:0;*/
+  /*margin-left:0;*/
+}
+
+.navbar .nav {
+  float:right;
+}
+
+.navbar .nav li {
+  margin-left:15px;
+  /*-webkit-filter: grayscale(0.5) blur(10px);*/
+}
+
+.navbar .nav li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  padding:6px 18px;
+  color:#888;
+  text-shadow:none;
+  -webkit-border-radius:16px;
+  border-radius:16px;
+  /*border:1px solid #ddd;*/
+  /*border-color:#ddd #d0d0d0 #bbb;*/
+  border-color: transparent;
+  line-height:16px;
+  text-align:center;
+  min-width:60px;
+  border:3px solid rgba(255, 255, 255, 0.5);
+  /*-webkit-filter: grayscale(0.0) blur(10px);*/
+}
+
+.navbar .nav .active a {
+  -webkit-border-radius:16px;
+  border-radius:16px;
+  /*background:#4fb6e9;*/
+  /*border:4px solid #ffffff;*/
+  /*border-color:#3ca3d7 #3799ca #338bb8;*/
+  color:#fff;
+  text-shadow:none;
+  background-color: transparent;
+  text-shadow:#3799ca 0 -1px 0;
+  box-shadow:rgba(0,0,0,0.2) 0 1px 1px;
+}
+
+
+.navbar .nav li a:hover {
+  color:#3799ca;
+  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
+  text-shadow:#fff 0 0 2px;
+}
+
+
+.navbar .nav .active a:hover {
+  background:#3ca3d7;
+  color:#fff;
+  text-shadow:none;
+  text-shadow:#3799ca 0 -1px 0;
+  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+#footer {
+  padding-top: 16px;
+  border-top:2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(45, 45, 45, 0.5);
+}
+/* Responsiveness */
+
+@media (max-width: 979px) {
+  html {
+    background: #1d1f21 url('../img/joeblausf.png')) 100% 100% no-repeat;
+
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
