@@ -9,15 +9,17 @@ html {
 body {
   min-height: 100%;
   color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66);
   background: transparent;
   padding-top: 80px;
 }
+a {
+  color: #6699cc;
+}
 
-
+/** LABELS AND BADGES **/
 .badge {
   margin-bottom: 8px;
-  border: 3px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .label-langauge, .badge-language {
   /*background-color: #c82829;*/
@@ -35,18 +37,15 @@ body {
   /*background-color: #718c00;*/
   background: none;
 }
-/* Carousel base class */
+/* CAROUSEL */
 .carousel {
-  margin: 0px;
-}
-.carousel .textpad {;
-  padding: 16px 56px 16px 56px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 .carousel .container {
   position: relative;
   z-index: 9;
 }
-
 .carousel-control {
   height: 80px;
   margin-top: 0;
@@ -55,57 +54,37 @@ body {
   background-color: transparent;
   border: 0;
 }
-
 .carousel .item {
-  height: 600px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  height: 480px;
+  -webkit-border-radius: 0px 6px 6px 0px;
+  -moz-border-radius:0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
 }
 .carousel .crop-img {
   width: 100%;
-  height: 600px;
+  height: 480px;
   overflow: hidden;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0px 6px 6px 0px;
+  -moz-border-radius:0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
 }
 .carousel img {
   top: 0;
   left: 0;
   min-width: 100%;
 }
-
 .carousel-caption {
-  -webkit-border-bottom-left-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  -webkit-border-radius: 0px 0px 6px 0px;
+  -moz-border-radius:0px 0px 6px 0px;
+  border-radius: 0px 0px 6px 0px;
 }
-/*.carousel-caption h1,*/
-/*.carousel-caption .lead {*/
-  /*margin: 0;*/
-  /*line-height: 1.25;*/
-  /*color: #fff;*/
-  /*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
-/*}*/
-/*.carousel-caption .btn {*/
-  /*margin-top: 10px;*/
-/*}*/
-
-
+/** NAVBAR **/
 .navbar {
   height: 60px;
-  border-bottom:2px solid rgba(255, 255, 255, 0.5);
+  border-bottom:1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(45, 45, 45, 0.5);
 }
-.hero-unit {
-  padding: 0px;
-  background-color: rgba(45, 45, 45, 0.5);
-  border: 2px solid rgba(255, 255, 255, 0.5);
-}
+
 .navbar-inner {
   padding-top:16px;
   border-style: none;
@@ -132,7 +111,6 @@ body {
 
 .navbar .nav li {
   margin-left:15px;
-  /*-webkit-filter: grayscale(0.5) blur(10px);*/
 }
 
 .navbar .nav li a {
@@ -149,8 +127,7 @@ body {
   line-height:16px;
   text-align:center;
   min-width:60px;
-  border:3px solid rgba(255, 255, 255, 0.5);
-  /*-webkit-filter: grayscale(0.0) blur(10px);*/
+  border:2px solid rgba(255, 255, 255, 0.5);
 }
 
 .navbar .nav .active a {
@@ -169,7 +146,7 @@ body {
 
 .navbar .nav li a:hover {
   color:#3799ca;
-  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
+  box-shadow:rgba(0,0,0,0.1) 0 1px 2px;
   text-shadow:#fff 0 0 2px;
 }
 
@@ -179,7 +156,7 @@ body {
   color:#fff;
   text-shadow:none;
   text-shadow:#3799ca 0 -1px 0;
-  box-shadow:rgba(0,0,0,0.1) 0 1px 3px;
+  box-shadow:rgba(0,0,0,0.1) 0 1px 2px;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
@@ -187,12 +164,74 @@ body {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+/** TAB NAV BAR **/
+.tabbable {
+  height: 100%;
+}
+.tabs-left > .nav-tabs {
+  height: 100%;
+  margin-right: 0px;
+  width: 270px;
+}
+.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover {
+  background-color: transparent;
+  border-top:  1px solid rgba(255, 255, 255, 0.5);
+  border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+  border-left: none;
+  border-right: none;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  color: #fff;
+}
+.tabs-left > .nav-tabs > li > a {
+  margin-top: -1px;
 
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+  padding: 0px;
+}
+.tab-content > .textpad, .pill-content > .textpad {;
+  padding: 16px;
+}
+/** FOOTER **/
 #footer {
   padding-top: 16px;
-  border-top:2px solid rgba(255, 255, 255, 0.5);
+  border-top:1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(45, 45, 45, 0.5);
 }
+/** HERO UNIT **/
+.hero-unit {
+  padding: 0px;
+  height: 480px;
+  background-color: rgba(45, 45, 45, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.hero-list .span3 {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.333;
+}
+.hero-list h2 {
+  margin: 14px 0;
+  /*color: #fff;*/
+  font-size: 22px;
+}
+.hero-list p {
+  /*color: #333333;*/
+  font-family: 'Raleway',Arial,sans-serif;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 0;
+}
+.hero-list a {
+  clear: both;
+  display: block;
+  margin-top: 15px;
+}
+
 /* Responsiveness */
 
 @media (max-width: 979px) {
