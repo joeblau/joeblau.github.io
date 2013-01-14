@@ -4,6 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-shadow:none;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   color: #fff;
   background: transparent;
   padding-top: 80px;
+  font-family: muli, serif;
 }
 a {
   color: #6699cc;
@@ -28,25 +30,26 @@ blockquote {
   border-left: 4px solid rgba(255, 255, 255,0.5);
 }
 /** LABELS AND BADGES **/
-.badge {
+.label, .badge {
   margin-bottom: 8px;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: none;
 }
 .label-langauge, .badge-language {
-  /*background-color: #c82829;*/
-  background: none;
+  background-color: #c82829;
+  /*background: none;*/
 }
 .label-patform, .badge-platform {
-  /*background-color: #f5871f;*/
-  background: none;
+  background-color: #f5871f;
+  /*background: none;*/
 }
 .label-database, .badge-database {
-  /*background-color: #eab700;*/
-  background: none;
+  background-color: #eab700;
+  /*background: none;*/
 }
 .label-security, .badge-security {
-  /*background-color: #718c00;*/
-  background: none;
+  background-color: #718c00;
+  /*background: none;*/
 }
 /* CAROUSEL */
 .carousel {
@@ -61,7 +64,7 @@ blockquote {
   height: 80px;
   margin-top: 0;
   font-size: 120px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  /*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
   background-color: transparent;
   border: 0;
 }
@@ -109,7 +112,7 @@ blockquote {
 
 .navbar .brand {
   color: #fff;
-  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  text-shadow: none;
   /*font-weight:700;*/
   /*font-size:32px;*/
   /*padding:0;*/
@@ -125,7 +128,6 @@ blockquote {
 }
 
 .navbar .nav li a {
-  font-family: 'Open Sans', sans-serif;
   font-weight:600;
   padding:6px 18px;
   color:#888;
@@ -150,7 +152,7 @@ blockquote {
   color:#fff;
   text-shadow:none;
   background-color: transparent;
-  text-shadow:#3799ca 0 -1px 0;
+  /*text-shadow:#3799ca 0 -1px 0;*/
   box-shadow:rgba(0,0,0,0.2) 0 1px 1px;
 }
 
@@ -158,7 +160,7 @@ blockquote {
 .navbar .nav li a:hover {
   color:#3799ca;
   box-shadow:rgba(0,0,0,0.1) 0 1px 2px;
-  text-shadow:#fff 0 0 2px;
+  /*text-shadow:#fff 0 0 2px;*/
 }
 
 
@@ -166,7 +168,7 @@ blockquote {
   background:#3ca3d7;
   color:#fff;
   text-shadow:none;
-  text-shadow:#3799ca 0 -1px 0;
+  /*text-shadow:#3799ca 0 -1px 0;*/
   box-shadow:rgba(0,0,0,0.1) 0 1px 2px;
 }
 
@@ -241,7 +243,6 @@ blockquote {
 }
 .hero-list p {
   /*color: #333333;*/
-  font-family: 'Raleway',Arial,sans-serif;
   line-height: 18px;
   overflow: hidden;
   padding: 0;
