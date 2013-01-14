@@ -225,6 +225,10 @@ blockquote {
 .hero-unit-project {
   height: 480px;
 }
+.hero-unit-me {
+  padding: 16px;
+  margin: 16px 0 16px 0;
+}
 .hero-list .span3 {
   text-align: center;
   margin-bottom: 20px;
