@@ -25,448 +25,454 @@
       <div class="container">
         <a href="/" class="brand">Joe Blau</a>
         <ul class="nav">
-          <li class="active"><a class="blurbutton"  href="#">Projects</a></li>
-          <li><a class="blurbutton"  href="#">Skills</a></li>
-          <li><a class="blurbutton" href="#">Me</a></li>
+          <li class="active"><a class="blurbutton"  href="#nav-projects" data-toggle="tab" onclick="window.scrollTo(0,0);">Projects</a></li>
+          <li><a class="blurbutton"  href="#nav-skills" data-toggle="tab" onclick="window.scrollTo(0,0);">Skills</a></li>
+          <li><a class="blurbutton" href="#nav-me" data-toggle="tab" onclick="window.scrollTo(0,0);">Me</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="container">
-    <div class="row">
-      <!-- Stop SOPA -->
-      <div class="hero-unit">
-        <div class="tabbable tabs-left">
-          <ul class="nav nav-tabs">
-            <blockquote>
-              <h2>Stop SOPA</h2>
-              <small>2012</small>
-            </blockquote>
-            <li><a href="#lA" data-toggle="tab">Overview</a></li>
-            <li><a href="#lB" data-toggle="tab">Screenshots</a></li>
-            <li><a href="#lC" data-toggle="tab">Technologies</a></li>
-            <li><a href="#lD" data-toggle="tab">Source</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane textpad" id="lA">
-              The Stop SOPA application is a browser plugin that pops up when you visit a website that supports SOPA.  I created the plugin for three web browsers: Firefox, Chrome, and Safari.
-            </div>
-            <div class="tab-pane  active" id="lB">
-              <div id="sopaCaorusel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/stopsopa01.png" alt="">
+
+
+  <div class="tab-content">
+    <div class="tab-pane" id="nav-projects">
+      <div class="container">
+        <div class="row">
+          <!-- Stop SOPA -->
+          <div class="hero-unit hero-unit-project">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <blockquote>
+                  <h2>Stop SOPA</h2>
+                  <small>2012</small>
+                </blockquote>
+                <li><a href="#lA" data-toggle="tab">Overview</a></li>
+                <li><a href="#lB" data-toggle="tab">Screenshots</a></li>
+                <li><a href="#lC" data-toggle="tab">Technologies</a></li>
+                <li><a href="#lD" data-toggle="tab">Source</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane textpad" id="lA">
+                  The Stop SOPA application is a browser plugin that pops up when you visit a website that supports SOPA.  I created the plugin for three web browsers: Firefox, Chrome, and Safari.
+                </div>
+                <div class="tab-pane  active" id="lB">
+                  <div id="sopaCaorusel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/stopsopa01.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Stop SOPA plugin running on Microsoft.com</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/stopsopa02.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Stop SOPA plugin minimized</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/stopsopa03.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Stop SOPA plugin maximized</h4>
+                        </div>
+                      </div>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>Stop SOPA plugin running on Microsoft.com</h4>
+                    <a class="left carousel-control" href="#sopaCaorusel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#sopaCaorusel" data-slide="next">›</a>
+                  </div>
+                </div>
+                <div class="tab-pane textpad" id="lC">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/firefox.png"/>
+                      </div>
+                      <h2>Firefox</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/chrome.png"/>
+                      </div>
+                      <h2>Chrome</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/safari.png"/>
+                      </div>
+                      <h2>Safari</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
+                      </div>
+                      <h2>HTML5</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
+                      </div>
+                      <h2>CSS3</h2>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/stopsopa02.png" alt="">
+                </div>
+                <div class="tab-pane textpad" id="lD">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
+                      </div>
+                      <h2><a href="http://joeblau.github.com/StopSOPA-Chrome-Extension/">Chrome</a></h2>
+                      <p>Github source code for Stop SOPA Chrome Extension.</p>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>Stop SOPA plugin minimized</h4>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
+                      </div>
+                      <h2><a href="http://joeblau.github.com/StopSOPA-Firefox-Extension/">Firefox</a></h2>
+                      <p>Github source code for Stop SOPA Firefox Extension.</p>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
+                      </div>
+                      <h2><a href="http://joeblau.github.com/StopSOPA-Safari-Extension/">Safari</a></h2>
+                      <p>Github source code for Stop SOPA Safari Extension.</p>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/stopsopa03.png" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                      <h4>Stop SOPA plugin maximized</h4>
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#sopaCaorusel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#sopaCaorusel" data-slide="next">›</a>
-              </div>
-            </div>
-            <div class="tab-pane textpad" id="lC">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/firefox.png"/>
-                  </div>
-                  <h2>Firefox</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/chrome.png"/>
-                  </div>
-                  <h2>Chrome</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/safari.png"/>
-                  </div>
-                  <h2>Safari</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
-                  </div>
-                  <h2>HTML5</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
-                  </div>
-                  <h2>CSS3</h2>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane textpad" id="lD">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
-                  </div>
-                  <h2><a href="http://joeblau.github.com/StopSOPA-Chrome-Extension/">Chrome</a></h2>
-                  <p>Github source code for Stop SOPA Chrome Extension.</p>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
-                  </div>
-                  <h2><a href="http://joeblau.github.com/StopSOPA-Firefox-Extension/">Firefox</a></h2>
-                  <p>Github source code for Stop SOPA Firefox Extension.</p>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img src="assets/joeblau/img/logos/github.png" width="64" height="64"/>
-                  </div>
-                  <h2><a href="http://joeblau.github.com/StopSOPA-Safari-Extension/">Safari</a></h2>
-                  <p>Github source code for Stop SOPA Safari Extension.</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Male Female Translator -->
-      <div class="hero-unit">
-        <div class="tabbable tabs-left">
-          <ul class="nav nav-tabs">
-            <blockquote>
-              <h2>Male/Female Translator</h2>
-              <small>2011-2012</small>
-            </blockquote>
-            <li><a href="#mftA" data-toggle="tab">Overview</a></li>
-            <li><a href="#mftB" data-toggle="tab">Screenshots</a></li>
-            <li><a href="#mftC" data-toggle="tab">Technologies</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane textpad" id="mftA">
-              Male/Female Translator
-            </div>
-            <div class="tab-pane active" id="mftB">
-              <div id="mftranslatorCaorusel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/mftranslator01.png" alt="">
+          <!-- Male Female Translator -->
+          <div class="hero-unit hero-unit-project">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <blockquote>
+                  <h2>Male/Female Translator</h2>
+                  <small>2011-2012</small>
+                </blockquote>
+                <li><a href="#mftA" data-toggle="tab">Overview</a></li>
+                <li><a href="#mftB" data-toggle="tab">Screenshots</a></li>
+                <li><a href="#mftC" data-toggle="tab">Technologies</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane textpad" id="mftA">
+                  Male/Female Translator
+                </div>
+                <div class="tab-pane active" id="mftB">
+                  <div id="mftranslatorCaorusel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/mftranslator01.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Male/Female Translator Landing Page</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/mftranslator02.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Female to Male Translations</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/mftranslator03.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Male to Female Translations</h4>
+                        </div>
+                      </div>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>Male/Female Translator Landing Page</h4>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/mftranslator02.png" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                      <h4>Female to Male Translations</h4>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/mftranslator03.png" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                      <h4>Male to Female Translations</h4>
-                    </div>
+                    <a class="left carousel-control" href="#mftranslatorCaorusel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#mftranslatorCaorusel" data-slide="next">›</a>
                   </div>
                 </div>
-                <a class="left carousel-control" href="#mftranslatorCaorusel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#mftranslatorCaorusel" data-slide="next">›</a>
-              </div>
-            </div>
-            <div class="tab-pane textpad" id="mftC">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
-                  </div>
-                  <h2>HTML5</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
-                  </div>
-                  <h2>CSS3</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
-                  </div>
-                  <h2>Python</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
-                  </div>
-                  <h2>Google App Engine</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/apple.png"/>
-                  </div>
-                  <h2>iOS</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Metmo Translator -->
-      <div class="hero-unit">
-        <div class="tabbable tabs-left">
-          <ul class="nav nav-tabs">
-            <blockquote>
-              <h2>Metmo</h2>
-              <small>2009-2010</small>
-            </blockquote>
-            <li><a href="#mmA" data-toggle="tab">Overview</a></li>
-            <li><a href="#mmB" data-toggle="tab">Screenshots</a></li>
-            <li><a href="#mmC" data-toggle="tab">Technologies</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane textpad" id="mmA">
-              Metro Mobile
-            </div>
-            <div class="tab-pane active" id="mmB">
-              <div id="metmoCaorusel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/metmo01.png" alt="">
+                <div class="tab-pane textpad" id="mftC">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
+                      </div>
+                      <h2>HTML5</h2>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>Metmo Landing Page</h4>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
+                      </div>
+                      <h2>CSS3</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
+                      </div>
+                      <h2>Python</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
+                      </div>
+                      <h2>Google App Engine</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/apple.png"/>
+                      </div>
+                      <h2>iOS</h2>
                     </div>
                   </div>
-                </div>
-                <a class="left carousel-control" href="#metmoCaorusel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#metmoCaorusel" data-slide="next">›</a>
-              </div>
-            </div>
-            <div class="tab-pane textpad" id="mmC">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
-                  </div>
-                  <h2>HTML5</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
-                  </div>
-                  <h2>CSS3</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
-                  </div>
-                  <h2>Google App Engine</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
-                  </div>
-                  <h2>Python</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/sencha.png"/>
-                  </div>
-                  <h2>Sencha Touch</h2>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Vroomtrap Translator -->
-      <div class="hero-unit">
-        <div class="tabbable tabs-left">
-          <ul class="nav nav-tabs">
-
-            <blockquote>
-              <h2>Vroomtrap</h2>
-              <small>2007-2009</small>
-            </blockquote>
-            <li><a href="#vtA" data-toggle="tab">Overview</a></li>
-            <li><a href="#vtB" data-toggle="tab">Screenshots</a></li>
-            <li><a href="#vtC" data-toggle="tab">Technologies</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane textpad" id="vtA">
-              Speed
-            </div>
-            <div class="tab-pane active" id="vtB">
-              <div id="vroomtrapCaorusel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/vroomtrap01.png" alt="">
+          <!-- Metmo Translator -->
+          <div class="hero-unit hero-unit-project">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <blockquote>
+                  <h2>Metmo</h2>
+                  <small>2009-2010</small>
+                </blockquote>
+                <li><a href="#mmA" data-toggle="tab">Overview</a></li>
+                <li><a href="#mmB" data-toggle="tab">Screenshots</a></li>
+                <li><a href="#mmC" data-toggle="tab">Technologies</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane textpad" id="mmA">
+                  Metro Mobile
+                </div>
+                <div class="tab-pane active" id="mmB">
+                  <div id="metmoCaorusel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/metmo01.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Metmo Landing Page</h4>
+                        </div>
+                      </div>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>Speed Traps In San Francisco</h4>
+                    <a class="left carousel-control" href="#metmoCaorusel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#metmoCaorusel" data-slide="next">›</a>
+                  </div>
+                </div>
+                <div class="tab-pane textpad" id="mmC">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
+                      </div>
+                      <h2>HTML5</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
+                      </div>
+                      <h2>CSS3</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
+                      </div>
+                      <h2>Google App Engine</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
+                      </div>
+                      <h2>Python</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/sencha.png"/>
+                      </div>
+                      <h2>Sencha Touch</h2>
                     </div>
                   </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/vroomtrap02.png" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                      <h4>Speed Trap Details</h4>
-                    </div>
-                  </div>
-                  <div class="item active">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/vroomtrap03.png" alt="">
-                    </div>
-                    <div class="carousel-caption">
-                      <h4>Vroomtrap iOS Marketing Splash Screen</h4>
-                    </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#vroomtrapCaorusel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#vroomtrapCaorusel" data-slide="next">›</a>
-              </div>
-            </div>
-            <div class="tab-pane textpad" id="vtC">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
-                  </div>
-                  <h2>HTML5</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
-                  </div>
-                  <h2>CSS3</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
-                  </div>
-                  <h2>Google App Engine</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
-                  </div>
-                  <h2>Python</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/xcode.png"/>
-                  </div>
-                  <h2>Objective-C</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/java.png"/>
-                  </div>
-                  <h2>Java</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/apple.png"/>
-                  </div>
-                  <h2>iOS</h2>
-                </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/android.png"/>
-                  </div>
-                  <h2>Android</h2>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- InstallRoot -->
-      <div class="hero-unit">
-        <div class="tabbable tabs-left">
-          <ul class="nav nav-tabs">
-            <blockquote>
-              <h2>InstallRoot</h2>
-              <small>2006-2007</small>
-            </blockquote>
-            <li><a href="#irA" data-toggle="tab">Overview</a></li>
-            <li><a href="#irB" data-toggle="tab">Screenshots</a></li>
-            <li><a href="#irC" data-toggle="tab">Technologies</a></li>
-          </ul>
-          <div class="tab-content">
-            <div class="tab-pane textpad" id="irA">
-              InstallRoot
-            </div>
-            <div class="tab-pane active" id="irB">
-              <div id="installrootCaorusel" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/installroot01.png" alt="">
+          <!-- Vroomtrap Translator -->
+          <div class="hero-unit hero-unit-project">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+
+                <blockquote>
+                  <h2>Vroomtrap</h2>
+                  <small>2007-2009</small>
+                </blockquote>
+                <li><a href="#vtA" data-toggle="tab">Overview</a></li>
+                <li><a href="#vtB" data-toggle="tab">Screenshots</a></li>
+                <li><a href="#vtC" data-toggle="tab">Technologies</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane textpad" id="vtA">
+                  Speed
+                </div>
+                <div class="tab-pane active" id="vtB">
+                  <div id="vroomtrapCaorusel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/vroomtrap01.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Speed Traps In San Francisco</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/vroomtrap02.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Speed Trap Details</h4>
+                        </div>
+                      </div>
+                      <div class="item active">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/vroomtrap03.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>Vroomtrap iOS Marketing Splash Screen</h4>
+                        </div>
+                      </div>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>InstallRoot Installer</h4>
-                    </div>
+                    <a class="left carousel-control" href="#vroomtrapCaorusel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#vroomtrapCaorusel" data-slide="next">›</a>
                   </div>
-                  <div class="item">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/installroot02.png" alt="">
+                </div>
+                <div class="tab-pane textpad" id="vtC">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/html5.png"/>
+                      </div>
+                      <h2>HTML5</h2>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>InstallRoot Basic</h4>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/css3.png"/>
+                      </div>
+                      <h2>CSS3</h2>
                     </div>
-                  </div>
-                  <div class="item active">
-                    <div class="crop-img">
-                      <img src="assets/joeblau/img/ss/installroot03.png" alt="">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/googleappengine.png"/>
+                      </div>
+                      <h2>Google App Engine</h2>
                     </div>
-                    <div class="carousel-caption">
-                      <h4>InstallRoot Advanced</h4>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/python.png"/>
+                      </div>
+                      <h2>Python</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/xcode.png"/>
+                      </div>
+                      <h2>Objective-C</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/java.png"/>
+                      </div>
+                      <h2>Java</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/apple.png"/>
+                      </div>
+                      <h2>iOS</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/android.png"/>
+                      </div>
+                      <h2>Android</h2>
                     </div>
                   </div>
                 </div>
-                <a class="left carousel-control" href="#installrootCaorusel" data-slide="prev">‹</a>
-                <a class="right carousel-control" href="#installrootCaorusel" data-slide="next">›</a>
               </div>
             </div>
-            <div class="tab-pane textpad" id="irC">
-              <div class="row hero-list">
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/java.png"/>
-                  </div>
-                  <h2>Java</h2>
+          </div>
+
+          <!-- InstallRoot -->
+          <div class="hero-unit hero-unit-project">
+            <div class="tabbable tabs-left">
+              <ul class="nav nav-tabs">
+                <blockquote>
+                  <h2>InstallRoot</h2>
+                  <small>2006-2007</small>
+                </blockquote>
+                <li><a href="#irA" data-toggle="tab">Overview</a></li>
+                <li><a href="#irB" data-toggle="tab">Screenshots</a></li>
+                <li><a href="#irC" data-toggle="tab">Technologies</a></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane textpad" id="irA">
+                  InstallRoot
                 </div>
-                <div class="span3">
-                  <div class="image-wrapper">
-                    <img height="64" width="64" src="assets/joeblau/img/logos/spring.png"/>
+                <div class="tab-pane active" id="irB">
+                  <div id="installrootCaorusel" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/installroot01.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>InstallRoot Installer</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/installroot02.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>InstallRoot Basic</h4>
+                        </div>
+                      </div>
+                      <div class="item active">
+                        <div class="crop-img">
+                          <img src="assets/joeblau/img/ss/installroot03.png" alt="">
+                        </div>
+                        <div class="carousel-caption">
+                          <h4>InstallRoot Advanced</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#installrootCaorusel" data-slide="prev">‹</a>
+                    <a class="right carousel-control" href="#installrootCaorusel" data-slide="next">›</a>
                   </div>
-                  <h2>Spring</h2>
+                </div>
+                <div class="tab-pane textpad" id="irC">
+                  <div class="row hero-list">
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/java.png"/>
+                      </div>
+                      <h2>Java</h2>
+                    </div>
+                    <div class="span3">
+                      <div class="image-wrapper">
+                        <img height="64" width="64" src="assets/joeblau/img/logos/spring.png"/>
+                      </div>
+                      <h2>Spring</h2>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -474,7 +480,94 @@
         </div>
       </div>
     </div>
+    <div class="tab-pane" id="nav-skills">
+      <div class="container">
+        <div class="row">
+          <p>Skills</p>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane active" id="nav-me">
+      <div class="container">
+        <div class="row">
+          <p>Me</p>
+          <!--&lt;!&ndash; Music &ndash;&gt;-->
+          <!--<div class="hero-unit">-->
+            <!--<div class="tabbable tabs-left foureighty">-->
+              <!--<ul class="nav nav-tabs">-->
+                <!--<blockquote>-->
+                  <!--<h2>Music</h2>-->
+                <!--</blockquote>-->
+                <!--<li><a href="#musicA" data-toggle="tab">Background</a></li>-->
+                <!--<li><a href="#musicB" data-toggle="tab">Videos</a></li>-->
+              <!--</ul>-->
+              <!--<div class="tab-content">-->
+                <!--<div class="tab-pane textpad active" id="musicA">-->
+                  <!--Music Production-->
+                <!--</div>-->
+                <!--<div class="tab-pane" id="musicB">-->
+                  <!--<div id="musicCaorusel" class="carousel slide">-->
+                    <!--<div class="carousel-inner">-->
+                      <!--<div class="item active">-->
+                        <!--<iframe src="http://player.vimeo.com/video/35949550?color=ffffff" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>-->
+                      <!--</div>-->
+                      <!--<div class="item">-->
+                        <!--<iframe src="http://player.vimeo.com/video/30810670?color=ffffff" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>-->
+                      <!--</div>-->
+                      <!--<div class="item">-->
+                        <!--<iframe src="http://player.vimeo.com/video/30810442?color=ffffff" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>-->
+                      <!--</div>-->
+                    <!--</div>-->
+                    <!--<a class="left carousel-control" href="#musicCaorusel" data-slide="prev">‹</a>-->
+                    <!--<a class="right carousel-control" href="#musicCaorusel" data-slide="next">›</a>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <!--&lt;!&ndash; Sports &ndash;&gt;-->
+          <!--<div class="hero-unit">-->
+            <!--<div class="tabbable tabs-left foureighty">-->
+              <!--<ul class="nav nav-tabs">-->
+                <!--<blockquote>-->
+                  <!--<h2>Sports</h2>-->
+                <!--</blockquote>-->
+                <!--<li><a href="#sportsA" data-toggle="tab">Background</a></li>-->
+                <!--<li><a href="#sportsB" data-toggle="tab">Photos</a></li>-->
+              <!--</ul>-->
+              <!--<div class="tab-content">-->
+                <!--<div class="tab-pane textpad active" id="sportsA">-->
+                  <!--Sports-->
+                <!--</div>-->
+                <!--<div class="tab-pane" id="sportsB">-->
+                  <!--<div id="sportsCaorusel" class="carousel slide">-->
+                    <!--<div class="carousel-inner">-->
+                      <!--<div class="item active">-->
+                        <!--a-->
+                      <!--</div>-->
+                      <!--<div class="item">-->
+                        <!--b-->
+                      <!--</div>-->
+                      <!--<div class="item">-->
+                        <!--c-->
+                      <!--</div>-->
+                    <!--</div>-->
+                    <!--<a class="left carousel-control" href="#sportsCaorusel" data-slide="prev">‹</a>-->
+                    <!--<a class="right carousel-control" href="#sportsCaorusel" data-slide="next">›</a>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        </div>
+      </div>
+    </div>
   </div>
+
+
+
+
 
   <div id="footer">
     <div class="container">
