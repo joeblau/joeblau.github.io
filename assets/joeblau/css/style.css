@@ -1,10 +1,13 @@
 html {
-  background: #1d1f21 url(../img/joeblausf.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: none;
+  background-image: url(../img/pwl.png);
+  background-position: initial initial;
+  background-repeat: initial initial;
+  /*background: #1d1f21 url(../img/pwl.png) repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*text-shadow: none;*/
 }
 body {
   min-height: 100%;
