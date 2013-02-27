@@ -1,19 +1,11 @@
 html {
-  background-image: url(../img/pwl.png);
-  background-position: initial initial;
-  background-repeat: initial initial;
-  /*background: #1d1f21 url(../img/pwl.png) repeat center center fixed;*/
-  /*-webkit-background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*background-size: cover;*/
-  /*text-shadow: none;*/
+  background: url(../img/pwl.png) repeat;
 }
 body {
   min-height: 100%;
   background: transparent;
   color: #fff;
-  padding-top: 60px;
+  padding: 60px 0 0 0;
   margin: 0;
 }
 .project {
@@ -90,8 +82,17 @@ footer {
   /*border-top: 1px solid rgba(255, 255, 255, 0.5);*/
   background-color: rgba(45, 45, 45, 0.6);
 }
-@media (max-width: 979px) {
-body {
-  padding-top: 0;
+.center-text {
+  text-align: center;
 }
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin: 0;
+  }
 }
