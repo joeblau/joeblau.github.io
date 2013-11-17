@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="JoeBlau" lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+  xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <title>Joe Blau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joe Blau's GitHub Projects">
+    <meta name="author" content="Joe Blau">
+    <link href='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+  </head>
+  <body >
+
+
+  <div class="projects-header">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4 center-text">
+          <img src="http://www.gravatar.com/avatar/7766e37746c9ae694db9e93b11d7665f?s=200" class="img-circle">
+          <h3>Joe Blau</h3>
+        </div>
+        <div class="col-lg-8">
+          <p>Projects that I've worked on or maintain</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div ng-controller="ProjectCtrl" id="grid" data-columns>
+      <div ng-repeat="project in projects" class="glass-pane">
+        <table class="table">
+          <tbody>
+          <tr>
+            <td ng-repeat="color in project.colors" ng-style="{'background-color':'{{color}}'}"></td>
+          </tr>
+          <tr>
+            <img width="100%" ng-src="{{project.image}}"/>
+          </tr>
+          </tbody>
+        </table>
+        <div class="detail-pad">
+          <h4 class="center-text">{{project.title}}</h4>
+
+          <p>{{project.description}}</p>
+
+          <h4>Links</h4>
+          <p ng-repeat="link in project.links"><a href="{{link.url}}">{{link.title}}</a></p>
+          <h4>Source</h4>
+          <p ng-repeat="source in project.links"><a href="{{source.url}}">{{source.title}}</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; Company 2013 &middot; Facebook &middot; Twitter &middot; Google+</p>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+
+  </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0/angular.min.js"></script>
+  <script src="assets/js/salvattore.min.js"></script>
+  <script src="assets/js/joeblau.js"></script>
+</html>

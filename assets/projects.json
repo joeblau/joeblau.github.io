@@ -1,0 +1,139 @@
+[
+  {
+    "colors": ["#ff5c29", "#1d1f21", "#eeeeee"],
+    "image": "assets/img/p/gitignore.png",
+    "url": "http://gitignore.io",
+    "title": "gitignore.io",
+    "description": "Generate useful .gitignore files for your project",
+    "links": [{
+      "title": "http://gitignore.io",
+      "link": "http://gitignore.io/"
+    }],
+    "source": [{
+      "type": "github",
+      "url": "https://github.com/joeblau/gitignore.io"
+    }]
+  },
+  {
+    "colors": ["#E10027", "#D88300", "#C8D186", "#3D00ED", "#FFFFFF"],
+    "image": "assets/img/p/jjbshort.png",
+    "url": "http://jjbshort.appspot.com",
+    "title": "jjbshort",
+    "description": "Bitly style URL shortner",
+    "links": [{
+      "title": "http://jjbshort.appspot.com",
+      "url": "http://jjbshort.appspot.com"
+    }],
+    "source": [{
+      "type": "github",
+      "url": "https://github.com/joeblau/jjbshort"
+    }]
+  },
+  {
+    "colors": ["#F2777A", "#F99157", "#FFCC66", "#99CC99", "#6699CC"],
+    "image": "assets/img/p/proxignos.png",
+    "url": "",
+    "title": "Proxignos",
+    "description": "Sensor proximity authentication API",
+    "links": [{
+      "title": "http://proxignos.io",
+      "url": "http://proxignos.io"
+    }],
+    "source": []
+  },
+  {
+    "colors": ["#1E4705","#6AAD24","#454545","#FFFFFF"],
+    "image": "assets/img/p/juke.png",
+    "url": "",
+    "title": "Juke",
+    "description": "Group Spotify powered jukebox",
+    "links": [],
+    "source": []
+  },
+  {
+    "colors": ["#B2DB41","#F1F090","#ED995D","#EB2D17"],
+    "image": "assets/img/p/medrec.png",
+    "url": "",
+    "title": "MedRec",
+    "description": "Medical record design challenge",
+    "links": [{
+      "title": "medrec",
+      "url": "http://healthdesign.challenge.gov/submissions/11536-medrec"
+    }],
+    "source": []
+  },
+  {
+    "colors": ["#D3553A","#59231E","#662722","#E6E6E7"],
+    "image": "assets/img/p/stopsopa.png",
+    "url": "",
+    "title": "Stop SOPA",
+    "description": "The Stop Online Piracy Act web browser plugin alerts you to which sites support SOPA",
+    "links": [{
+      "title": "Chrome Plugin",
+      "url": "https://chrome.google.com/webstore/detail/ffemdedpoiggmoooojmombbndbggeobp"
+    }, {
+      "title": "Firefox Addon",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/stop-sopa/"
+    }],
+    "source": [{
+      "title": "Chrome Source",
+      "url": "https://github.com/joeblau/StopSOPA-Chrome-Extension"
+    },{
+      "title": "Firefox Source",
+      "url": "https://github.com/joeblau/StopSOPA-Firefox-Extension"
+    },{
+      "title": "Safari Source",
+      "url": "https://github.com/joeblau/StopSOPA-Safari-Extension"
+    }]
+  },
+  {
+    "colors": ["#409DD0","#001E36","#3C3C3C","#777777","#DDDDDD"],
+    "image": "assets/img/p/twitskills.png",
+    "url": "",
+    "title": "TwitSkills",
+    "description": "Twitter based job search engine",
+    "links": [],
+    "source": []
+  },  {
+    "colors": ["#0A90CE","#6CD0FF","#3E3E3E","#E9EEF1"],
+    "image": "assets/img/p/metmo.png",
+    "url": "",
+    "title": "Metmo",
+    "description": "Washington D.C. Metro transit mobile web application",
+    "links": [{
+      "title": "http://metmo.mobi",
+      "url": "http://met-mo.appspot.com/w"
+    }],
+    "source": []
+  },  {
+    "colors": ["#4096EE","#FF0084","#FFFFFF","#000000"],
+    "image": "assets/img/p/mftranslator.png",
+    "url": "",
+    "title": "Male/Female Translator",
+    "description": "Male/Female translation site",
+    "links": [{
+      "title": "ttp://mftranslator.com",
+      "url": "ttp://mftranslator.com"
+    }],
+    "source": []
+  },  {
+    "colors": ["#0F79DA","#FDC010","#4B4B4B","#000000"],
+    "image": "assets/img/p/vroomtrap.png",
+    "url": "",
+    "title": "Vroomtrap",
+    "description": "Online Real-Time Speed Trap Database",
+    "links": [{
+      "title": "http://vroomtrap.com",
+      "url": "http://vroomtrap.com"
+    }],
+    "source": []
+  },  {
+    "colors": ["#652D85","#A2A4A3","#000000"],
+    "image": "assets/img/p/installroot.png",
+    "url": "",
+    "title": "InstallRoot",
+    "description": "Install DoD Intermediate and Root certificates into your trust store",
+    "links": [],
+    "source": []
+  }
+]
