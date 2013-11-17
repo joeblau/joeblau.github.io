@@ -7,10 +7,14 @@ html {
   background-size: cover;
 }
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   background-color: transparent;
 }
+a:link{color: #f1c40f;text-decoration: none;}
+a:visited{color:#f1c40f;text-decoration: none;}
+a:hover{color:#f1c40f;text-decoration: none;}
+a:active{color:#f1c40f;text-decoration: none;}
 
 .projects-header {
   min-height: 300px;
@@ -25,28 +29,29 @@ body {
 }
 footer {
   min-height: 100px;
-  background: rgba(255,255,255,.2);
+  /*background: rgba(255,255,255,.2);*/
   /*background-size: cover;*/
 }
 .glass-pane {
   margin: 0 10px 20px;
   background-color: rgba(255,255,255,.2);
 }
-
+.center-text {
+  text-align: center;
+}
 .table {
   width: 100%;
-  height: 2px;
+  height: 10px;
   margin-bottom: 0;
   border-spacing: 0;
 }
-
-.table td {
-  border-top: none;
-  height: 2px;
-  padding-bottom: 1px;
+.table>tbody>tr>td {
+  height: 8px;
+  padding: 0px;
 }
-
-
+.detail-pad {
+  padding: 4px;
+}
 /** salvatore **/
 [data-columns]::before { display: none; }
 
@@ -73,6 +78,88 @@ footer {
 .size-1of2 { width: 50%; }
 .size-1of3 { width: 33.333%; }
 
+/*Squircles*/
+
+.icons {
+  width: 100%;
+  margin: 0 auto;
+}
+.icons i {
+  display: block;
+  font-size: 24px;
+  line-height: 50px; width: 50px;
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 12px;
+  position: relative;
+}
+/*Now we will create fish-eye shapes using pseudo elements and clip them to add a curve to the sides of the icons*/
+.icons a:before, .icons a:after {
+  content: '';
+  position: absolute; left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: inherit;
+  border-radius: 100%; /*circle*/
+  -webkit-backface-visibility: hidden;
+  /*time to transform the circle into fish-eye shape. iOS7 style now.*/
+  -webkit-transform: scaleX(2) scaleY(1.05); /* Saf3.1+, Chrome */
+  -moz-transform: scaleX(2) scaleY(1.05); /* FF3.5+ */
+  -ms-transform: scaleX(2) scaleY(1.05); /* IE9 */
+  -o-transform: scaleX(2) scaleY(1.05); /* Opera 10.5+ */
+  transform: scaleX(2) scaleY(1.05);
+  /*clipping the left and right sides - 17px from the left and right*/
+  clip: rect(0, 33px, 50px, 17px);
+  /*pushing it behind the icon*/
+  z-index: -1;
+}
+/*duplicating the :before element and rotating it 90deg and swapping the X/Y transforms*/
+.icons a:after {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: scaleY(2) scaleX(1.05) rotate(90deg);
+  -moz-transform: scaleY(2) scaleX(1.05) rotate(90deg);
+  -ms-transform: scaleY(2) scaleX(1.05) rotate(90deg);
+  -o-transform: scaleY(2) scaleX(1.05) rotate(90deg);
+  transform: scaleY(2) scaleX(1.05) rotate(90deg);
+}
+/*colors*/
+.pn {
+  background: #232323;
+}
+.jb {
+  background: #703f39;
+}
+.em {
+  background: #c0392b;
+}
+.tw {
+  background: #00ACF0;
+}
+.fb {
+  background: #3B5997;
+}
+.gp {
+  background: #DB4F48;
+}
+.ig {
+  background: #447397;
+}
+.li {
+  background: #007DB8;
+}
+.gh {
+  background: #333333;
+}
+.db {
+  background: #cb4073;
+}
+.ww {
+  background: #27ae60;
+}
 
 /*@media screen and (max-width: 749px){*/
   /*#grid[data-columns]::before {*/
@@ -226,9 +313,6 @@ footer {
   /*border-top: 1px solid rgba(255, 255, 255, 0.5);*/
   /*background-color: rgba(45, 45, 45, 0.8);*/
 /*}*/
-.center-text {
-  text-align: center;
-}
 /*@media (max-width: 979px) {*/
   /*body {*/
     /*padding-top: 0;*/
