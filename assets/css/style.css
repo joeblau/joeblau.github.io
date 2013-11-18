@@ -67,28 +67,57 @@ ul {
 /** salvatore **/
 [data-columns]::before { display: none; }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
   #grid[data-columns]::before {
     content: '1 .column.size-1of1';
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   #grid[data-columns]::before {
     content: '2 .column.size-1of2';
   }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #grid[data-columns]::before {
     content: '3 .column.size-1of3';
   }
 }
+@media screen and (min-width: 1200px) {
+  #grid[data-columns]::before {
+    content: '4 .column.size-1of4';
+  }
+}
 
-/* Again, you're free to use and define the classes: */
 .column { float: left; }
 .size-1of1 { width: 100%; }
 .size-1of2 { width: 50%; }
 .size-1of3 { width: 33.333%; }
+.size-1of4 { width: 25%; }
+/*@media screen and (max-width: 480px){*/
+  /*#grid[data-columns]::before {*/
+    /*content: '1 .column.size-1of1';*/
+  /*}*/
+/*}*/
+
+/*@media screen and (min-width: 481px) and (max-width: 768px) {*/
+  /*#grid[data-columns]::before {*/
+    /*content: '2 .column.size-1of2';*/
+  /*}*/
+/*}*/
+/*@media screen and (min-width: 769px) {*/
+  /*#grid[data-columns]::before {*/
+    /*content: '3 .column.size-1of3';*/
+  /*}*/
+/*}*/
+
+/* Again, you're free to use and define the classes: */
+/*.column { float: left; }*/
+/*.size-1of1 { width: 100%; }*/
+/*.size-1of2 { width: 50%; }*/
+/*.size-1of3 { width: 33.333%; }*/
+
+
 
 /*Squircles*/
 
@@ -173,37 +202,7 @@ ul {
   background: #27ae60;
 }
 
-/*@media screen and (max-width: 749px){*/
-  /*#grid[data-columns]::before {*/
-    /*content: '1 .column.size-1of1';*/
-  /*}*/
-/*}*/
 
-/*@media screen and (min-width: 750px) and (max-width: 969px) {*/
-  /*#grid[data-columns]::before {*/
-    /*content: '2 .column.size-1of2';*/
-  /*}*/
-/*}*/
-/*@media screen and (min-width: 970px) and (max-width: 1169px) {*/
-  /*#grid[data-columns]::before {*/
-    /*content: '3 .column.size-1of3';*/
-  /*}*/
-/*}*/
-/*@media screen and (min-width: 1170px) {*/
-  /*#grid[data-columns]::before {*/
-    /*content: '4 .column.size-1of4';*/
-  /*}*/
-/*}*/
-
-/* Also, don't forget to add this: */
-
-
-/* Again, you're free to use and define the classes: */
-/*.column { float: left; }*/
-/*.size-1of1 { width: 100%; }*/
-/*.size-1of2 { width: 50%; }*/
-/*.size-1of3 { width: 33.333%; }*/
-/*.size-1of4 { width: 25%; }*/
 
 
 
