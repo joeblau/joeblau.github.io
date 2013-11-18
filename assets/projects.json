@@ -1,7 +1,7 @@
 [{
   "colors": ["#FFFFFF", "#E74C3C", "#C0392B"],
   "image": "assets/img/p/r8r.png",
-  "title": "R8R (rater)",
+  "title": "R8̅R",
   "description": "An iOS application created for a Parse + Facebook hackathon.  The application lets you quickly rate things on a scale of 0-5 as well as letting you add a category and an adjective",
   "technologies": ["ios","pixate"]
 },{
