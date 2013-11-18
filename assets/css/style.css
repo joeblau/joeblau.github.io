@@ -32,6 +32,14 @@ footer {
   /*background: rgba(255,255,255,.2);*/
   /*background-size: cover;*/
 }
+ul li {
+  display: inline;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .glass-pane {
   margin: 0 10px 20px;
   background-color: rgba(255,255,255,.2);
@@ -51,6 +59,10 @@ footer {
 }
 .detail-pad {
   padding: 4px;
+}
+.tech-icon {
+  font-size: 36px;
+  padding: 4px 8px 4px 8px;
 }
 /** salvatore **/
 [data-columns]::before { display: none; }

@@ -1,76 +1,70 @@
 [{
   "colors": ["#FFFFFF", "#E74C3C", "#C0392B"],
   "image": "assets/img/p/r8r.png",
-  "url": "",
   "title": "R8R (rater)",
   "description": "An iOS application created for a Parse + Facebook hackathon.  The application lets you quickly rate things on a scale of 0-5 as well as letting you add a category and an adjective",
-  "technologies": ["objective-c","parse"]
+  "technologies": ["ios","pixate"]
 },{
   "colors": ["#333333","#EEEEEE","#Cf0E05","#3869CF"],
   "image": "assets/img/p/xo9.png",
-  "url": "http://xo9.us",
   "title": "XO9 - Ultiamte Tic-Tac-Toe",
   "description": "iOS game I created using the rules from a blog post of a game called Ultimate Tic-Tac-Toe.  I designed the application, produced the music, created the graphics, developed the universal binary iOS application, created the website, and created the marketing material",
-  "technologies": [{
-    "name": "objective-c"
-  }],
+  "technologies": ["ios", "pixate", "html5", "css3", "javascript"],
   "links": [{
     "title": "http://xo9.us",
-    "link": "http://xo9.us/"
+    "url": "http://xo9.us/"
   },{
     "title": "Apple App Store Link",
-    "link": "https://appstore.com/xo9"
+    "url": "https://appstore.com/xo9"
   }]
 },{
   "colors": ["#FFFFFF"],
   "image": "assets/img/p/jbdc.png",
-  "url": "http://joeblau.com",
   "title": "joeblau.com",
   "description": "My main landing page for all of my work.  The site uses a creative string which contains every digital means of reach me including phone number, email and all of my social networks.",
-  "technologies": ["html5", "css3"],
+  "technologies": ["html5", "css3", "javascript"],
   "links": [{
     "title": "http://joeblau.com",
-    "link": "http://joeblau.com/"
+    "url": "http://joeblau.com/"
   }],
   "sources": [{
-    "type": "github",
+    "title": "github",
     "url": "https://github.com/joeblau/joeblau.com"
   }]
 },{
   "colors": ["#FF5C29", "#1D1F21", "#EEEEEE"],
   "image": "assets/img/p/gitignore.png",
-  "url": "http://gitignore.io",
   "title": "gitignore.io",
   "description": "Gitignore.io is a website to generate useful .gitignore files for your project.  The site uses a a function command to allow you run git ignore from your command line via gi command",
-  "technologies": ["nodejs"],
+  "technologies": ["nodejs", "html5", "css3", "javascript"],
   "links": [{
     "title": "http://gitignore.io",
-    "link": "http://gitignore.io/"
+    "url": "http://gitignore.io/"
   }],
   "sources": [{
-    "type": "github",
+    "title": "github",
     "url": "https://github.com/joeblau/gitignore.io"
   }]
 },{
   "colors": ["#E10027", "#D88300", "#C8D186", "#3D00ED", "#FFFFFF"],
   "image": "assets/img/p/jjbshort.png",
-  "url": "http://jjbshort.appspot.com",
   "title": "jjbshort",
   "description": "Bit.ly style URL shortner that was a coding challenge for a job interview at GetAround. Google App Engine based code with test cases and a UI",
+  "technologies": ["appengine", "python", "html5", "css3", "javascript"],
   "links": [{
     "title": "http://jjbshort.appspot.com",
     "url": "http://jjbshort.appspot.com"
   }],
   "sources": [{
-    "type": "github",
+    "title": "github",
     "url": "https://github.com/joeblau/jjbshort"
   }]
 },{
   "colors": ["#F2777A", "#F99157", "#FFCC66", "#99CC99", "#6699CC"],
   "image": "assets/img/p/proxignos.png",
-  "url": "",
   "title": "Proxignos",
   "description": "Sensor proximity authentication API. This concept is an API designed to compare multiple sensors on a mobile devices at a specific time segment to determine whether or not two devices are near each other.",
+  "technologies": ["scala", "java", "html5", "css3", "javascript"],
   "links": [{
     "title": "http://proxignos.io",
     "url": "http://proxignos.io"
@@ -78,16 +72,15 @@
 },{
   "colors": ["#1E4705","#6AAD24","#454545","#FFFFFF"],
   "image": "assets/img/p/juke.png",
-  "url": "",
   "title": "Juke",
-  "description": "Group Spotify powered jukebox. This design conccept allows multiple users to create a group playlist using Spotify's API. The Jukebox host uses their their device to play the music while  other users can add songs and then vote them up or down."
-},
-{
+  "description": "Group Spotify powered jukebox. This design conccept allows multiple users to create a group playlist using Spotify's API. The Jukebox host uses their their device to play the music while  other users can add songs and then vote them up or down.",
+  "technologies": ["ios"]
+},{
   "colors": ["#B2DB41","#F1F090","#ED995D","#EB2D17"],
   "image": "assets/img/p/medrec.png",
-  "url": "",
   "title": "MedRec",
   "description": "Medical record design challenge",
+  "technologies": ["html5", "css3", "javascript"],
   "links": [{
     "title": "MedRec",
     "url": "http://healthdesign.challenge.gov/submissions/11536-medrec"
@@ -95,9 +88,9 @@
 },{
   "colors": ["#D3553A","#59231E","#662722","#E6E6E7"],
   "image": "assets/img/p/stopsopa.png",
-  "url": "",
   "title": "Stop SOPA",
-  "description": "The Stop Online Piracy Act web browser plugin alerts you to which sites support SOPA",
+  "description": "The Stop Online Piracy Act web browser plugin alerts you to which sites support SOPA.  This plugin runs in the background and proivdes a large alert to let you know if the website that you're using is a SOPA supporter.",
+  "technologies": ["chrome", "firefox", "safari", "html5", "css3", "javascript"],
   "links": [{
     "title": "Chrome Plugin",
     "url": "https://chrome.google.com/webstore/detail/ffemdedpoiggmoooojmombbndbggeobp"
@@ -118,15 +111,15 @@
 },{
   "colors": ["#409DD0","#001E36","#3C3C3C","#777777","#DDDDDD"],
   "image": "assets/img/p/twitskills.png",
-  "url": "",
   "title": "TwitSkills",
-  "description": "Twitter based job search engine"
+  "description": "Twitter based job search engine concept that uses hashtags to craete job titles.  #$ would be a custom hashtag for adding a skill to your profile.  Users can then search for skills based on indexed Twit Skills.",
+  "technologies": ["php", "html5", "css3", "javascript"]
 },{
   "colors": ["#0A90CE","#6CD0FF","#3E3E3E","#E9EEF1"],
   "image": "assets/img/p/metmo.png",
-  "url": "",
   "title": "Metmo",
-  "description": "Washington D.C. Metro transit mobile web application",
+  "technologies": ["appengine", "sencha", "html5", "css3", "javascript"],
+  "description": "Contest to design a Washington D.C. Metro transit mobile web application.  The application tied into WMTA's API to provide real-time alerts and train schedules.",
   "links": [{
     "title": "http://metmo.mobi",
     "url": "http://met-mo.appspot.com/w"
@@ -134,19 +127,19 @@
 },{
   "colors": ["#4096EE","#FF0084","#FFFFFF","#000000"],
   "image": "assets/img/p/mftranslator.png",
-  "url": "",
   "title": "Male/Female Translator",
-  "description": "Male/Female translation site",
+  "description": "Male/Female translation site which I created as a joke site while Text From Last Night was popular.",
+  "technologies": ["appengine", "html5", "python", "css3", "javascript"],
   "links": [{
-    "title": "ttp://mftranslator.com",
-    "url": "ttp://mftranslator.com"
+    "title": "http://mftranslator.com",
+    "url": "http://mftranslator.com"
   }]
 },{
   "colors": ["#0F79DA","#FDC010","#4B4B4B","#000000"],
   "image": "assets/img/p/vroomtrap.png",
-  "url": "",
   "title": "Vroomtrap",
-  "description": "Online Real-Time Speed Trap Database",
+  "description": "Online Real-Time Speed Trap Database which real-time geo-tagging to add and alert users when speed traps are near.  The application was built cross platform to run on iOS, Android, Blackberry and Windows Mobile 6.",
+  "technologies": ["appengine", "extjs", "python", "html5", "css3", "javascript"],
   "links": [{
     "title": "http://vroomtrap.com",
     "url": "http://vroomtrap.com"
@@ -154,7 +147,7 @@
 },{
   "colors": ["#652D85","#A2A4A3","#000000"],
   "image": "assets/img/p/installroot.png",
-  "url": "",
   "title": "InstallRoot",
-  "description": "Install DoD Intermediate and Root certificates into your trust store"
+  "description": "Original designer of Install Root; The DoD Intermediate and Root certificates installer.  This Java application installs Intermediate and Root certificates into your store in and in-band fashion.  This application is run on millions of machines.",
+  "technologies": ["java"]
 }]

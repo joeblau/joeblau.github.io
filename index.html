@@ -10,11 +10,11 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/dev.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
   </head>
   <body>
-
 
   <div class="projects-header">
     <div class="container">
@@ -24,14 +24,13 @@
           <h3>Joe Blau</h3>
         </div>
         <div class="col-lg-8">
-          <p>Projects that I"ve worked on or maintain</p>
+          <p>Projects that I've worked on or currently maintain</p>
         </div>
       </div>
     </div>
   </div>
 
   <div class="container">
-
     <div ng-controller="ProjectCtrl" id="grid" data-columns>
       <div ng-repeat="project in projects" class="glass-pane">
         <table class="table">
@@ -47,41 +46,40 @@
         <div class="detail-pad">
           <h3 class="center-text">{{project.title}}</h3>
           <p>{{project.description}}</p>
-          <h4 ng-hide="!project.technologies">Technology</h4>
-          <p ng-repeat="tech in project.technologies"><a href="{{tech.name}}">{{tech.name}}</a></p>
-          <h4 ng-hide="!project.links">Links</h4>
+          <h4 class="center-text" ng-hide="!project.technologies">Technology</h4>
+          <ul>
+            <li ng-repeat="tech in project.technologies"><i class="dev-{{tech}} tech-icon"></i> </li>
+          </ul>
+          <h4 class="center-text" ng-hide="!project.links">Links</h4>
           <p ng-repeat="link in project.links"><a href="{{link.url}}">{{link.title}}</a></p>
-          <h4 ng-hide="!project.sources">Source</h4>
+          <h4 class="center-text" ng-hide="!project.sources">Source</h4>
           <p ng-repeat="source in project.sources"><a href="{{source.url}}">{{source.title}}</a></p>
-
         </div>
       </div>
     </div>
   </div>
 
-
-    <footer class="">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="center-text">
-              <div class="icons">
-                <a href="https://twitter.com/joe_blau" class="tw social-text"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.facebook.com/joeblau" class="fb social-text"><i class="fa fa-facebook"></i></a>
-                <a href="https://plus.google.com/+joeblau" class="gp social-text"><i class="fa fa-google-plus"></i></a>
-                <a href="http://instagram.com/joeblau" class="ig social-text"><i class="fa fa-instagram"></i></a>
-                <a href="http://www.linkedin.com/in/joeblau" class="li social-text"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/joeblau" class="gh social-text"><i class="fa fa-github"></i></a>
-                <a href="https://dribbble.com/joeblau" class="db social-text"><i class="fa fa-dribbble"></i></a>
-              </div>
-              <p>2013 Joe Blau</p>
+  <footer class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="center-text">
+            <div class="icons">
+              <a href="https://twitter.com/joe_blau" class="tw social-text"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/joeblau" class="fb social-text"><i class="fa fa-facebook"></i></a>
+              <a href="https://plus.google.com/+joeblau" class="gp social-text"><i class="fa fa-google-plus"></i></a>
+              <a href="http://instagram.com/joeblau" class="ig social-text"><i class="fa fa-instagram"></i></a>
+              <a href="http://www.linkedin.com/in/joeblau" class="li social-text"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/joeblau" class="gh social-text"><i class="fa fa-github"></i></a>
+              <a href="https://dribbble.com/joeblau" class="db social-text"><i class="fa fa-dribbble"></i></a>
             </div>
-
+            <p>2013 Joe Blau</p>
           </div>
+
         </div>
       </div>
-    </footer>
-
+    </div>
+  </footer>
 
   </body>
   <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0/angular.min.js"></script>
