@@ -73,7 +73,7 @@
   "colors": ["#1E4705","#6AAD24","#454545","#FFFFFF"],
   "image": "assets/img/p/juke.png",
   "title": "Juke",
-  "description": "Group Spotify powered jukebox. This design conccept allows multiple users to create a group playlist using Spotify's API. The Jukebox host uses their their device to play the music while  other users can add songs and then vote them up or down.",
+  "description": "Group Spotify powered jukebox. This design concept allows multiple users to create a group playlist using Spotify's API. The Jukebox host uses their their device to play the music while  other users can add songs and then vote them up or down.",
   "technologies": ["ios"]
 },{
   "colors": ["#B2DB41","#F1F090","#ED995D","#EB2D17"],
@@ -112,8 +112,8 @@
   "colors": ["#409DD0","#001E36","#3C3C3C","#777777","#DDDDDD"],
   "image": "assets/img/p/twitskills.png",
   "title": "TwitSkills",
-  "description": "Twitter based job search engine concept that uses hashtags to craete job titles.  #$ would be a custom hashtag for adding a skill to your profile.  Users can then search for skills based on indexed Twit Skills.",
-  "technologies": ["php", "html5", "css3", "javascript"]
+  "description": "Twitter based job search engine concept that uses hashtags to create job titles.  #$ would be a custom hashtag for adding a skill to your profile.  Users can then search for skills based on indexed Twit Skills.",
+  "technologies": ["php", "elasticsearch", "html5", "css3", "javascript"]
 },{
   "colors": ["#0A90CE","#6CD0FF","#3E3E3E","#E9EEF1"],
   "image": "assets/img/p/metmo.png",
