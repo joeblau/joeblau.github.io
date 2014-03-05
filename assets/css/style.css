@@ -5,11 +5,13 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   color: white;
   background-color: transparent;
+  height: 100%;
 }
 a:link{color: #f1c40f;text-decoration: none;}
 a:visited{color:#f1c40f;text-decoration: none;}
