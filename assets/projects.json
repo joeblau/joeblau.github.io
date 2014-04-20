@@ -3,13 +3,13 @@
   "image": "assets/img/p/r8r.png",
   "title": "R8̅R",
   "description": "An iOS application created for a Parse + Facebook hackathon.  The application lets you quickly rate things on a scale of 0-5 as well as letting you add a category and an adjective",
-  "technologies": ["ios","pixate"]
+  "technologies": ["icon-os-ios"]
 },{
   "colors": ["#333333","#EEEEEE","#Cf0E05","#3869CF"],
   "image": "assets/img/p/xo9.png",
   "title": "XO9 - Ultiamte Tic-Tac-Toe",
   "description": "iOS game I created using the rules from a blog post of a game called Ultimate Tic-Tac-Toe.  I designed the application, produced the music, created the graphics, developed the universal binary iOS application, created the website, and created the marketing material",
-  "technologies": ["ios", "pixate", "html5", "css3", "javascript"],
+  "technologies": ["icon-os-ios", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://xo9.us",
     "url": "http://xo9.us/"
@@ -22,7 +22,7 @@
   "image": "assets/img/p/jbdc.png",
   "title": "joeblau.com",
   "description": "My main landing page for all of my work.  The site uses a creative string which contains every digital means of reach me including phone number, email and all of my social networks.",
-  "technologies": ["html5", "css3", "javascript"],
+  "technologies": ["icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://joeblau.com",
     "url": "http://joeblau.com/"
@@ -36,7 +36,7 @@
   "image": "assets/img/p/gitignore.png",
   "title": "gitignore.io",
   "description": "Gitignore.io is a website to generate useful .gitignore files for your project.  The site uses a a function command to allow you run git ignore from your command line via gi command",
-  "technologies": ["nodejs", "html5", "css3", "javascript"],
+  "technologies": ["icon-prog-nodejs01", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://gitignore.io",
     "url": "http://gitignore.io/"
@@ -50,7 +50,7 @@
   "image": "assets/img/p/jjbshort.png",
   "title": "jjbshort",
   "description": "Bit.ly style URL shortner that was a coding challenge for a job interview at GetAround. Google App Engine based code with test cases and a UI",
-  "technologies": ["appengine", "python", "html5", "css3", "javascript"],
+  "technologies": ["icon-prog-python", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://jjbshort.appspot.com",
     "url": "http://jjbshort.appspot.com"
@@ -64,7 +64,7 @@
   "image": "assets/img/p/proxignos.png",
   "title": "Proxignos",
   "description": "Sensor proximity authentication API. This concept is an API designed to compare multiple sensors on a mobile devices at a specific time segment to determine whether or not two devices are near each other.",
-  "technologies": ["scala", "java", "html5", "css3", "javascript"],
+  "technologies": ["icon-prog-scala", "icon-prog-java", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://proxignos.io",
     "url": "http://proxignos.io"
@@ -74,13 +74,13 @@
   "image": "assets/img/p/juke.png",
   "title": "Juke",
   "description": "Group Spotify powered jukebox. This design concept allows multiple users to create a group playlist using Spotify's API. The Jukebox host uses their their device to play the music while  other users can add songs and then vote them up or down.",
-  "technologies": ["ios"]
+  "technologies": ["icon-os-ios"]
 },{
   "colors": ["#B2DB41","#F1F090","#ED995D","#EB2D17"],
   "image": "assets/img/p/medrec.png",
   "title": "MedRec",
   "description": "Medical record design challenge",
-  "technologies": ["html5", "css3", "javascript"],
+  "technologies": ["icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "MedRec",
     "url": "http://healthdesign.challenge.gov/submissions/11536-medrec"
@@ -90,7 +90,7 @@
   "image": "assets/img/p/stopsopa.png",
   "title": "Stop SOPA",
   "description": "The Stop Online Piracy Act web browser plugin alerts you to which sites support SOPA.  This plugin runs in the background and proivdes a large alert to let you know if the website that you're using is a SOPA supporter.",
-  "technologies": ["chrome", "firefox", "safari", "html5", "css3", "javascript"],
+  "technologies": ["icon-brw-chrome", "icon-brw-firefox", "icon-brw-safari-02", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "Chrome Plugin",
     "url": "https://chrome.google.com/webstore/detail/ffemdedpoiggmoooojmombbndbggeobp"
@@ -113,12 +113,12 @@
   "image": "assets/img/p/twitskills.png",
   "title": "TwitSkills",
   "description": "Twitter based job search engine concept that uses hashtags to create job titles.  #$ would be a custom hashtag for adding a skill to your profile.  Users can then search for skills based on indexed Twit Skills.",
-  "technologies": ["php", "elasticsearch", "html5", "css3", "javascript"]
+  "technologies": ["icon-prog-php02", "icon-dbs-redis", "icon-html5-01", "icon-css3-01", "icon-prog-js01"]
 },{
   "colors": ["#0A90CE","#6CD0FF","#3E3E3E","#E9EEF1"],
   "image": "assets/img/p/metmo.png",
   "title": "Metmo",
-  "technologies": ["appengine", "sencha", "html5", "css3", "javascript"],
+  "technologies": [ "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "description": "Contest to design a Washington D.C. Metro transit mobile web application.  The application tied into WMTA's API to provide real-time alerts and train schedules.",
   "links": [{
     "title": "http://metmo.mobi",
@@ -129,7 +129,7 @@
   "image": "assets/img/p/mftranslator.png",
   "title": "Male/Female Translator",
   "description": "Male/Female translation site which I created as a joke site while Text From Last Night was popular.",
-  "technologies": ["appengine", "html5", "python", "css3", "javascript"],
+  "technologies": ["icon-prog-python", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://mftranslator.com",
     "url": "http://mftranslator.com"
@@ -139,7 +139,7 @@
   "image": "assets/img/p/vroomtrap.png",
   "title": "Vroomtrap",
   "description": "Online Real-Time Speed Trap Database which real-time geo-tagging to add and alert users when speed traps are near.  The application was built cross platform to run on iOS, Android, Blackberry and Windows Mobile 6.",
-  "technologies": ["appengine", "extjs", "python", "html5", "css3", "javascript"],
+  "technologies": ["icon-os-ios", "icon-android", "icon-windows", "icon-prog-python", "icon-html5-01", "icon-css3-01", "icon-prog-js01"],
   "links": [{
     "title": "http://vroomtrap.com",
     "url": "http://vroomtrap.com"
@@ -149,5 +149,5 @@
   "image": "assets/img/p/installroot.png",
   "title": "InstallRoot",
   "description": "Original designer of Install Root; The DoD Intermediate and Root certificates installer.  This Java application installs Intermediate and Root certificates into your store in and in-band fashion.  This application is run on millions of machines.",
-  "technologies": ["java"]
+  "technologies": ["icon-prog-java"]
 }]
