@@ -9,7 +9,8 @@
     <meta name="author" content="Joe Blau">
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/pictonic.css">
     <!--[if lt IE 8]><script src="assets/js/pictonic.min.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/dev.css">
@@ -18,29 +19,44 @@
   </head>
   <body>
 
-  <div class="projects-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 center-text">
-          <img src="http://www.gravatar.com/avatar/7766e37746c9ae694db9e93b11d7665f?s=200" class="img-circle">
-          <h3>Joe Blau</h3>
+  <section id="header" class="dark">
+    <nav class="navbar" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://joeblau.com">Joe Blau</a>
         </div>
-        <div class="col-lg-8">
-          <p>Projects that I've worked on or currently maintain</p>
-          <ul>
-            <li>
-              <i class="icon-angularjs tech-icon"></i>
-              <i class="icon-html5-01 tech-icon"></i>
-              <i class="icon-css3-01 tech-icon"></i>
-              <i class="icon-prog-js01 tech-icon"></i>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://blog.joeblau.com">Blog</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  </section>
+
+  <section id="projects">
+    <header>
+      <div class="container center-text">
+        <h1>Projects</h1>
+        <p>Here are a collection of projects that I've worked on over my career. Projects range from mobile and front end development all the way to backend systems and security work</p>
+      </div>
+    </header>
+
+    </section>
+   <section class="project-list">
+
+    <div class="container">
     <div ng-controller="ProjectCtrl" id="grid" data-columns>
       <div ng-repeat="project in projects" class="glass-pane">
         <table class="table">
@@ -54,45 +70,51 @@
           </tbody>
         </table>
         <div class="detail-pad">
-          <h3 class="center-text">{{project.title}}</h3>
+          <h2 class="center-text">{{project.title}}</h2>
           <p>{{project.description}}</p>
-          <h4 class="center-text" ng-hide="!project.technologies">Technology</h4>
+          <h3 class="center-text" ng-hide="!project.technologies">Technology</h3>
           <ul>
             <li ng-repeat="tech in project.technologies"><i class="{{tech}} tech-icon"></i> </li>
           </ul>
-          <h4 class="center-text" ng-hide="!project.links">Links</h4>
+          <h3 class="center-text" ng-hide="!project.links">Links</h3>
           <p ng-repeat="link in project.links"><a href="{{link.url}}">{{link.title}}</a></p>
-          <h4 class="center-text" ng-hide="!project.sources">Source</h4>
+          <h3 class="center-text" ng-hide="!project.sources">Source</h3>
           <p ng-repeat="source in project.sources"><a href="{{source.url}}">{{source.title}}</a></p>
         </div>
       </div>
     </div>
   </div>
+  </section>
 
-  <footer class="">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="center-text">
-            <div class="icons">
-              <a href="https://twitter.com/joe_blau" class="tw social-text"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/joeblau" class="fb social-text"><i class="fa fa-facebook"></i></a>
-              <a href="https://plus.google.com/+joeblau" class="gp social-text"><i class="fa fa-google-plus"></i></a>
-              <a href="http://instagram.com/joeblau" class="ig social-text"><i class="fa fa-instagram"></i></a>
-              <a href="http://www.linkedin.com/in/joeblau" class="li social-text"><i class="fa fa-linkedin"></i></a>
-              <a href="https://github.com/joeblau" class="gh social-text"><i class="fa fa-github"></i></a>
-              <a href="https://dribbble.com/joeblau" class="db social-text"><i class="fa fa-dribbble"></i></a>
+  <section id="footer">
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="center-text">
+              <div class="icons">
+                <a href="https://twitter.com/joe_blau" class="tw social-text"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/joeblau" class="fb social-text"><i class="fa fa-facebook"></i></a>
+                <a href="https://plus.google.com/+joeblau" class="gp social-text"><i class="fa fa-google-plus"></i></a>
+                <a href="http://instagram.com/joeblau" class="ig social-text"><i class="fa fa-instagram"></i></a>
+                <a href="http://www.linkedin.com/in/joeblau" class="li social-text"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/joeblau" class="gh social-text"><i class="fa fa-github"></i></a>
+                <a href="https://dribbble.com/joeblau" class="db social-text"><i class="fa fa-dribbble"></i></a>
+              </div>
+              <p>2007-2014 Joe Blau</p>
             </div>
-            <p>2013 Joe Blau</p>
-          </div>
 
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </section>
+
 
   </body>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.0/angular.min.js"></script>
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.18/angular.min.js"></script>
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
   <script src="assets/js/salvattore.min.js"></script>
   <script src="assets/js/joeblau.js"></script>
 </html>
