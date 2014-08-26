@@ -1,12 +1,12 @@
 [{
-  "colors": ["#69B3FB","#339EFB","#FFFB3C","#222222"],
+  "colors": ["#6393E6","#835EE2","#EEEEEE","#222222"],
   "image": "assets/img/p/emo.png",
   "title": "Emo",
   "description": "Emo is an emoji status update from your friends. When they update their emo, you get notified.",
   "technologies": ["icon-os-ios"],
   "links": [{
-    "title": "http://tryemo.com",
-    "url": "http://tryemo.com"
+    "title": "http://joeblau.com/emo",
+    "url": "http://joeblau.com/emo"
   }]
 },{
   "colors": ["#6F10FF","#7648FF","#435AFF","#0070FF","#1173F3","#0092FC","#85C7FB","#F0B00D","#FF562C","#FD4421","#ED0004"],
