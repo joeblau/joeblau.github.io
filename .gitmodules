@@ -1,0 +1,9 @@
+[submodule "emo"]
+	path = emo
+	url = https://github.com/joeblau/web.emo.git
+[submodule "orb"]
+	path = orb
+	url = https://github.com/joeblau/web.orb.git
+[submodule "xo9"]
+	path = xo9
+	url = https://github.com/joeblau/xo9.git
