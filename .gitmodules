@@ -7,3 +7,6 @@
 [submodule "xo9"]
 	path = xo9
 	url = https://github.com/joeblau/xo9.git
+[submodule "dust"]
+	path = dust
+	url = https://github.com/joeblau/dust.git
