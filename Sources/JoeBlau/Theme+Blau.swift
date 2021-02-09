@@ -86,7 +86,7 @@ private extension Node where Context == HTML.BodyContext {
         return .header(
             .wrapper(
                 .h1(.text(context.site.name)),
-                .h4(.text("I help teams ship functional iOS prototypes in 2-4 weeks."))
+                .h4(.text("Co-founder @ Velo"))
             )
         )
     }
