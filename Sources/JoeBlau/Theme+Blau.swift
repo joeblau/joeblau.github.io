@@ -86,7 +86,7 @@ private extension Node where Context == HTML.BodyContext {
         return .header(
             .wrapper(
                 .h1(.text(context.site.name)),
-                .h4(.text("Co-founder @ Velo"))
+                .h4(.text("Founder & CEO @ Submap"))
             )
         )
     }
