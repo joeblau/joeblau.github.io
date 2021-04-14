@@ -1,6 +1,6 @@
 ~$ ./blau investments
 
-- **mage** - A product devleoer collaborative AI application development tool
+- **mage** - A product developer collaborative AI application development tool
 - **assemble** - The future of compensation is data-driven, technology-enabled, and strategic
 - **hairlooks** - Empowering communities of hairstylists and barbers to elevate their craft.
 - **flexport** — the freight forwarder for modern logistics teams
