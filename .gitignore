@@ -28,3 +28,6 @@ tmp
 src/website/settingslocal.py
 stunnel.log
 Output/
+
+.swiftpm/
+.publish/
